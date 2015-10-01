@@ -12,6 +12,7 @@ import UIKit
 class SecondTableViewController : UITableViewController {
     
     var SecondArray = [String]()
+    var SecondAnswerArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,7 @@ class SecondTableViewController : UITableViewController {
         
         var DestViewController = segue.destinationViewController as! ViewController
         
-        DestViewController.FirstString = "123"
+        DestViewController.FirstString = SecondAnswerArray[indexPath.row]
     }
 
 }
