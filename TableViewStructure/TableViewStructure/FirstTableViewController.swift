@@ -16,18 +16,18 @@ class FirstTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        FirstTableArray = ["First", "Second", "Third"]
+        FirstTableArray = ["알리바바", "반스", "스시테이"]
         
         SecondArray = [
-            SecondTable(SecondTitle : ["1-1", "1-2", "1-3"]),
-            SecondTable(SecondTitle : ["2-1", "2-2", "2-3"]),
-            SecondTable(SecondTitle : ["3-1", "3-2", "3-3"])
+            SecondTable(SecondTitle : ["짜장면", "짬뽕", "탕수육"]),
+            SecondTable(SecondTitle : ["꼼띵능", "포탐", "팟타이"]),
+            SecondTable(SecondTitle : ["돈까스", "몬스터롤", "타코야키"])
         ]
         
         ThirdArray = [
-            ThirdView(ThirdViewArray: ["a-1", "a-2", "a-3"]),
-            ThirdView(ThirdViewArray: ["b-1", "b-2", "b-3"]),
-            ThirdView(ThirdViewArray: ["c-1", "c-2", "c-3"])
+            ThirdView(ThirdViewArray: ["$15", "$25", "$22"]),
+            ThirdView(ThirdViewArray: ["$55", "$10", "$100"]),
+            ThirdView(ThirdViewArray: ["$18", "$33", "$21"])
         ]
         // Do any additional setup after loading the view, typically from a nib.
     }

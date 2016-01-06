@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3E821651987536500C3005A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E821641987536500C3005A /* main.m */; };
+		C3E821681987536500C3005A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E821671987536500C3005A /* AppDelegate.m */; };
+		C3E8216B1987536500C3005A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8216A1987536500C3005A /* ViewController.m */; };
+		C3E8216E1987536500C3005A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E8216C1987536500C3005A /* Main.storyboard */; };
+		C3E821701987536500C3005A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E8216F1987536500C3005A /* Images.xcassets */; };
+		C3E8217C1987536500C3005A /* SnowAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8217B1987536500C3005A /* SnowAnimationTests.m */; };
+		C3E821B51987559A00C3005A /* snow-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821861987559A00C3005A /* snow-1.tiff */; };
+		C3E821B61987559A00C3005A /* snow-2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821871987559A00C3005A /* snow-2.tiff */; };
+		C3E821B71987559A00C3005A /* snow-3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821881987559A00C3005A /* snow-3.tiff */; };
+		C3E821B81987559A00C3005A /* snow-4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821891987559A00C3005A /* snow-4.tiff */; };
+		C3E821B91987559A00C3005A /* snow-5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218A1987559A00C3005A /* snow-5.tiff */; };
+		C3E821BA1987559A00C3005A /* snow-6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218B1987559A00C3005A /* snow-6.tiff */; };
+		C3E821BB1987559A00C3005A /* snow-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218C1987559A00C3005A /* snow-7.tiff */; };
+		C3E821BC1987559A00C3005A /* snow-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218D1987559A00C3005A /* snow-8.tiff */; };
+		C3E821BD1987559A00C3005A /* snow-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218E1987559A00C3005A /* snow-9.tiff */; };
+		C3E821BE1987559A00C3005A /* snow-10.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8218F1987559A00C3005A /* snow-10.tiff */; };
+		C3E821BF1987559A00C3005A /* snow-11.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821901987559A00C3005A /* snow-11.tiff */; };
+		C3E821C01987559A00C3005A /* snow-12.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821911987559A00C3005A /* snow-12.tiff */; };
+		C3E821C11987559A00C3005A /* snow-13.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821921987559A00C3005A /* snow-13.tiff */; };
+		C3E821C21987559A00C3005A /* snow-14.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821931987559A00C3005A /* snow-14.tiff */; };
+		C3E821C31987559A00C3005A /* snow-15.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821941987559A00C3005A /* snow-15.tiff */; };
+		C3E821C41987559A00C3005A /* snow-16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821951987559A00C3005A /* snow-16.tiff */; };
+		C3E821C51987559A00C3005A /* snow-17.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821961987559A00C3005A /* snow-17.tiff */; };
+		C3E821C61987559A00C3005A /* snow-18.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821971987559A00C3005A /* snow-18.tiff */; };
+		C3E821C71987559A00C3005A /* snow-19.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821981987559A00C3005A /* snow-19.tiff */; };
+		C3E821C81987559A00C3005A /* snow-20.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821991987559A00C3005A /* snow-20.tiff */; };
+		C3E821C91987559A00C3005A /* snow-21.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219A1987559A00C3005A /* snow-21.tiff */; };
+		C3E821CA1987559A00C3005A /* snow-22.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219B1987559A00C3005A /* snow-22.tiff */; };
+		C3E821CB1987559A00C3005A /* snow-23.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219C1987559A00C3005A /* snow-23.tiff */; };
+		C3E821CC1987559A00C3005A /* snow-24.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219D1987559A00C3005A /* snow-24.tiff */; };
+		C3E821CD1987559A00C3005A /* snow-25.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219E1987559A00C3005A /* snow-25.tiff */; };
+		C3E821CE1987559A00C3005A /* snow-26.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E8219F1987559A00C3005A /* snow-26.tiff */; };
+		C3E821CF1987559A00C3005A /* snow-27.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A01987559A00C3005A /* snow-27.tiff */; };
+		C3E821D01987559A00C3005A /* snow-28.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A11987559A00C3005A /* snow-28.tiff */; };
+		C3E821D11987559A00C3005A /* snow-29.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A21987559A00C3005A /* snow-29.tiff */; };
+		C3E821D21987559A00C3005A /* snow-30.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A31987559A00C3005A /* snow-30.tiff */; };
+		C3E821D31987559A00C3005A /* snow-31.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A41987559A00C3005A /* snow-31.tiff */; };
+		C3E821D41987559A00C3005A /* snow-32.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A51987559A00C3005A /* snow-32.tiff */; };
+		C3E821D51987559A00C3005A /* snow-33.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A61987559A00C3005A /* snow-33.tiff */; };
+		C3E821D61987559A00C3005A /* snow-34.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A71987559A00C3005A /* snow-34.tiff */; };
+		C3E821D71987559A00C3005A /* snow-35.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A81987559A00C3005A /* snow-35.tiff */; };
+		C3E821D81987559A00C3005A /* snow-36.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821A91987559A00C3005A /* snow-36.tiff */; };
+		C3E821D91987559A00C3005A /* snow-37.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AA1987559A00C3005A /* snow-37.tiff */; };
+		C3E821DA1987559A00C3005A /* snow-38.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AB1987559A00C3005A /* snow-38.tiff */; };
+		C3E821DB1987559A00C3005A /* snow-39.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AC1987559A00C3005A /* snow-39.tiff */; };
+		C3E821DC1987559A00C3005A /* snow-40.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AD1987559A00C3005A /* snow-40.tiff */; };
+		C3E821DD1987559A00C3005A /* snow-41.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AE1987559A00C3005A /* snow-41.tiff */; };
+		C3E821DE1987559A00C3005A /* snow-42.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821AF1987559A00C3005A /* snow-42.tiff */; };
+		C3E821DF1987559A00C3005A /* snow-43.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821B01987559A00C3005A /* snow-43.tiff */; };
+		C3E821E01987559A00C3005A /* snow-44.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821B11987559A00C3005A /* snow-44.tiff */; };
+		C3E821E11987559A00C3005A /* snow-45.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821B21987559A00C3005A /* snow-45.tiff */; };
+		C3E821E21987559A00C3005A /* snow-46.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C3E821B31987559A00C3005A /* snow-46.tiff */; };
+		C3E821E31987559A00C3005A /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E821B41987559A00C3005A /* snow.png */; };
+		C3E821E61987571700C3005A /* SnowAniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E821E51987571700C3005A /* SnowAniViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3E821761987536500C3005A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E821571987536500C3005A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E8215E1987536500C3005A;
+			remoteInfo = SnowAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31922FB198773E2002DB895 /* SnowAniViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowAniViewController.h; sourceTree = "<group>"; };
+		C3E8215F1987536500C3005A /* SnowAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E821631987536500C3005A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E821641987536500C3005A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E821661987536500C3005A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3E821671987536500C3005A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3E821691987536500C3005A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3E8216A1987536500C3005A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3E8216D1987536500C3005A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E8216F1987536500C3005A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3E821751987536500C3005A /* SnowAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E8217A1987536500C3005A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E8217B1987536500C3005A /* SnowAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowAnimationTests.m; sourceTree = "<group>"; };
+		C3E821861987559A00C3005A /* snow-1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-1.tiff"; sourceTree = "<group>"; };
+		C3E821871987559A00C3005A /* snow-2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-2.tiff"; sourceTree = "<group>"; };
+		C3E821881987559A00C3005A /* snow-3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-3.tiff"; sourceTree = "<group>"; };
+		C3E821891987559A00C3005A /* snow-4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-4.tiff"; sourceTree = "<group>"; };
+		C3E8218A1987559A00C3005A /* snow-5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-5.tiff"; sourceTree = "<group>"; };
+		C3E8218B1987559A00C3005A /* snow-6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-6.tiff"; sourceTree = "<group>"; };
+		C3E8218C1987559A00C3005A /* snow-7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-7.tiff"; sourceTree = "<group>"; };
+		C3E8218D1987559A00C3005A /* snow-8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-8.tiff"; sourceTree = "<group>"; };
+		C3E8218E1987559A00C3005A /* snow-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-9.tiff"; sourceTree = "<group>"; };
+		C3E8218F1987559A00C3005A /* snow-10.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-10.tiff"; sourceTree = "<group>"; };
+		C3E821901987559A00C3005A /* snow-11.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-11.tiff"; sourceTree = "<group>"; };
+		C3E821911987559A00C3005A /* snow-12.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-12.tiff"; sourceTree = "<group>"; };
+		C3E821921987559A00C3005A /* snow-13.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-13.tiff"; sourceTree = "<group>"; };
+		C3E821931987559A00C3005A /* snow-14.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-14.tiff"; sourceTree = "<group>"; };
+		C3E821941987559A00C3005A /* snow-15.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-15.tiff"; sourceTree = "<group>"; };
+		C3E821951987559A00C3005A /* snow-16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-16.tiff"; sourceTree = "<group>"; };
+		C3E821961987559A00C3005A /* snow-17.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-17.tiff"; sourceTree = "<group>"; };
+		C3E821971987559A00C3005A /* snow-18.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-18.tiff"; sourceTree = "<group>"; };
+		C3E821981987559A00C3005A /* snow-19.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-19.tiff"; sourceTree = "<group>"; };
+		C3E821991987559A00C3005A /* snow-20.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-20.tiff"; sourceTree = "<group>"; };
+		C3E8219A1987559A00C3005A /* snow-21.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-21.tiff"; sourceTree = "<group>"; };
+		C3E8219B1987559A00C3005A /* snow-22.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-22.tiff"; sourceTree = "<group>"; };
+		C3E8219C1987559A00C3005A /* snow-23.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-23.tiff"; sourceTree = "<group>"; };
+		C3E8219D1987559A00C3005A /* snow-24.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-24.tiff"; sourceTree = "<group>"; };
+		C3E8219E1987559A00C3005A /* snow-25.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-25.tiff"; sourceTree = "<group>"; };
+		C3E8219F1987559A00C3005A /* snow-26.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-26.tiff"; sourceTree = "<group>"; };
+		C3E821A01987559A00C3005A /* snow-27.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-27.tiff"; sourceTree = "<group>"; };
+		C3E821A11987559A00C3005A /* snow-28.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-28.tiff"; sourceTree = "<group>"; };
+		C3E821A21987559A00C3005A /* snow-29.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-29.tiff"; sourceTree = "<group>"; };
+		C3E821A31987559A00C3005A /* snow-30.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-30.tiff"; sourceTree = "<group>"; };
+		C3E821A41987559A00C3005A /* snow-31.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-31.tiff"; sourceTree = "<group>"; };
+		C3E821A51987559A00C3005A /* snow-32.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-32.tiff"; sourceTree = "<group>"; };
+		C3E821A61987559A00C3005A /* snow-33.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-33.tiff"; sourceTree = "<group>"; };
+		C3E821A71987559A00C3005A /* snow-34.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-34.tiff"; sourceTree = "<group>"; };
+		C3E821A81987559A00C3005A /* snow-35.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-35.tiff"; sourceTree = "<group>"; };
+		C3E821A91987559A00C3005A /* snow-36.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-36.tiff"; sourceTree = "<group>"; };
+		C3E821AA1987559A00C3005A /* snow-37.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-37.tiff"; sourceTree = "<group>"; };
+		C3E821AB1987559A00C3005A /* snow-38.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-38.tiff"; sourceTree = "<group>"; };
+		C3E821AC1987559A00C3005A /* snow-39.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-39.tiff"; sourceTree = "<group>"; };
+		C3E821AD1987559A00C3005A /* snow-40.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-40.tiff"; sourceTree = "<group>"; };
+		C3E821AE1987559A00C3005A /* snow-41.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-41.tiff"; sourceTree = "<group>"; };
+		C3E821AF1987559A00C3005A /* snow-42.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-42.tiff"; sourceTree = "<group>"; };
+		C3E821B01987559A00C3005A /* snow-43.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-43.tiff"; sourceTree = "<group>"; };
+		C3E821B11987559A00C3005A /* snow-44.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-44.tiff"; sourceTree = "<group>"; };
+		C3E821B21987559A00C3005A /* snow-45.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-45.tiff"; sourceTree = "<group>"; };
+		C3E821B31987559A00C3005A /* snow-46.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "snow-46.tiff"; sourceTree = "<group>"; };
+		C3E821B41987559A00C3005A /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		C3E821E51987571700C3005A /* SnowAniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowAniViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E8215C1987536500C3005A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E821721987536500C3005A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E821561987536500C3005A = {
+			isa = PBXGroup;
+			children = (
+				C3E821851987558400C3005A /* Resource */,
+				C3E821611987536500C3005A /* SnowAnimation */,
+				C3E821781987536500C3005A /* SnowAnimationTests */,
+				C3E821601987536500C3005A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E821601987536500C3005A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8215F1987536500C3005A /* SnowAnimation.app */,
+				C3E821751987536500C3005A /* SnowAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E821611987536500C3005A /* SnowAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C31922FB198773E2002DB895 /* SnowAniViewController.h */,
+				C3E821E51987571700C3005A /* SnowAniViewController.m */,
+				C3E821661987536500C3005A /* AppDelegate.h */,
+				C3E821671987536500C3005A /* AppDelegate.m */,
+				C3E821691987536500C3005A /* ViewController.h */,
+				C3E8216A1987536500C3005A /* ViewController.m */,
+				C3E8216C1987536500C3005A /* Main.storyboard */,
+				C3E8216F1987536500C3005A /* Images.xcassets */,
+				C3E821621987536500C3005A /* Supporting Files */,
+			);
+			path = SnowAnimation;
+			sourceTree = "<group>";
+		};
+		C3E821621987536500C3005A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E821631987536500C3005A /* Info.plist */,
+				C3E821641987536500C3005A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E821781987536500C3005A /* SnowAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8217B1987536500C3005A /* SnowAnimationTests.m */,
+				C3E821791987536500C3005A /* Supporting Files */,
+			);
+			path = SnowAnimationTests;
+			sourceTree = "<group>";
+		};
+		C3E821791987536500C3005A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E8217A1987536500C3005A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E821851987558400C3005A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C3E821861987559A00C3005A /* snow-1.tiff */,
+				C3E821871987559A00C3005A /* snow-2.tiff */,
+				C3E821881987559A00C3005A /* snow-3.tiff */,
+				C3E821891987559A00C3005A /* snow-4.tiff */,
+				C3E8218A1987559A00C3005A /* snow-5.tiff */,
+				C3E8218B1987559A00C3005A /* snow-6.tiff */,
+				C3E8218C1987559A00C3005A /* snow-7.tiff */,
+				C3E8218D1987559A00C3005A /* snow-8.tiff */,
+				C3E8218E1987559A00C3005A /* snow-9.tiff */,
+				C3E8218F1987559A00C3005A /* snow-10.tiff */,
+				C3E821901987559A00C3005A /* snow-11.tiff */,
+				C3E821911987559A00C3005A /* snow-12.tiff */,
+				C3E821921987559A00C3005A /* snow-13.tiff */,
+				C3E821931987559A00C3005A /* snow-14.tiff */,
+				C3E821941987559A00C3005A /* snow-15.tiff */,
+				C3E821951987559A00C3005A /* snow-16.tiff */,
+				C3E821961987559A00C3005A /* snow-17.tiff */,
+				C3E821971987559A00C3005A /* snow-18.tiff */,
+				C3E821981987559A00C3005A /* snow-19.tiff */,
+				C3E821991987559A00C3005A /* snow-20.tiff */,
+				C3E8219A1987559A00C3005A /* snow-21.tiff */,
+				C3E8219B1987559A00C3005A /* snow-22.tiff */,
+				C3E8219C1987559A00C3005A /* snow-23.tiff */,
+				C3E8219D1987559A00C3005A /* snow-24.tiff */,
+				C3E8219E1987559A00C3005A /* snow-25.tiff */,
+				C3E8219F1987559A00C3005A /* snow-26.tiff */,
+				C3E821A01987559A00C3005A /* snow-27.tiff */,
+				C3E821A11987559A00C3005A /* snow-28.tiff */,
+				C3E821A21987559A00C3005A /* snow-29.tiff */,
+				C3E821A31987559A00C3005A /* snow-30.tiff */,
+				C3E821A41987559A00C3005A /* snow-31.tiff */,
+				C3E821A51987559A00C3005A /* snow-32.tiff */,
+				C3E821A61987559A00C3005A /* snow-33.tiff */,
+				C3E821A71987559A00C3005A /* snow-34.tiff */,
+				C3E821A81987559A00C3005A /* snow-35.tiff */,
+				C3E821A91987559A00C3005A /* snow-36.tiff */,
+				C3E821AA1987559A00C3005A /* snow-37.tiff */,
+				C3E821AB1987559A00C3005A /* snow-38.tiff */,
+				C3E821AC1987559A00C3005A /* snow-39.tiff */,
+				C3E821AD1987559A00C3005A /* snow-40.tiff */,
+				C3E821AE1987559A00C3005A /* snow-41.tiff */,
+				C3E821AF1987559A00C3005A /* snow-42.tiff */,
+				C3E821B01987559A00C3005A /* snow-43.tiff */,
+				C3E821B11987559A00C3005A /* snow-44.tiff */,
+				C3E821B21987559A00C3005A /* snow-45.tiff */,
+				C3E821B31987559A00C3005A /* snow-46.tiff */,
+				C3E821B41987559A00C3005A /* snow.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E8215E1987536500C3005A /* SnowAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E8217F1987536500C3005A /* Build configuration list for PBXNativeTarget "SnowAnimation" */;
+			buildPhases = (
+				C3E8215B1987536500C3005A /* Sources */,
+				C3E8215C1987536500C3005A /* Frameworks */,
+				C3E8215D1987536500C3005A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowAnimation;
+			productName = SnowAnimation;
+			productReference = C3E8215F1987536500C3005A /* SnowAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E821741987536500C3005A /* SnowAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E821821987536500C3005A /* Build configuration list for PBXNativeTarget "SnowAnimationTests" */;
+			buildPhases = (
+				C3E821711987536500C3005A /* Sources */,
+				C3E821721987536500C3005A /* Frameworks */,
+				C3E821731987536500C3005A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E821771987536500C3005A /* PBXTargetDependency */,
+			);
+			name = SnowAnimationTests;
+			productName = SnowAnimationTests;
+			productReference = C3E821751987536500C3005A /* SnowAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E821571987536500C3005A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "소영섭";
+				TargetAttributes = {
+					C3E8215E1987536500C3005A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C3E821741987536500C3005A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C3E8215E1987536500C3005A;
+					};
+				};
+			};
+			buildConfigurationList = C3E8215A1987536500C3005A /* Build configuration list for PBXProject "SnowAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E821561987536500C3005A;
+			productRefGroup = C3E821601987536500C3005A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E8215E1987536500C3005A /* SnowAnimation */,
+				C3E821741987536500C3005A /* SnowAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E8215D1987536500C3005A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E821D31987559A00C3005A /* snow-31.tiff in Resources */,
+				C3E821BE1987559A00C3005A /* snow-10.tiff in Resources */,
+				C3E821C81987559A00C3005A /* snow-20.tiff in Resources */,
+				C3E821BC1987559A00C3005A /* snow-8.tiff in Resources */,
+				C3E821DB1987559A00C3005A /* snow-39.tiff in Resources */,
+				C3E821CA1987559A00C3005A /* snow-22.tiff in Resources */,
+				C3E821DF1987559A00C3005A /* snow-43.tiff in Resources */,
+				C3E821D71987559A00C3005A /* snow-35.tiff in Resources */,
+				C3E821B71987559A00C3005A /* snow-3.tiff in Resources */,
+				C3E821DD1987559A00C3005A /* snow-41.tiff in Resources */,
+				C3E821D61987559A00C3005A /* snow-34.tiff in Resources */,
+				C3E821B61987559A00C3005A /* snow-2.tiff in Resources */,
+				C3E821E31987559A00C3005A /* snow.png in Resources */,
+				C3E821CD1987559A00C3005A /* snow-25.tiff in Resources */,
+				C3E821B91987559A00C3005A /* snow-5.tiff in Resources */,
+				C3E821CC1987559A00C3005A /* snow-24.tiff in Resources */,
+				C3E821D41987559A00C3005A /* snow-32.tiff in Resources */,
+				C3E8216E1987536500C3005A /* Main.storyboard in Resources */,
+				C3E821C71987559A00C3005A /* snow-19.tiff in Resources */,
+				C3E821C41987559A00C3005A /* snow-16.tiff in Resources */,
+				C3E821C11987559A00C3005A /* snow-13.tiff in Resources */,
+				C3E821C01987559A00C3005A /* snow-12.tiff in Resources */,
+				C3E821D81987559A00C3005A /* snow-36.tiff in Resources */,
+				C3E821DE1987559A00C3005A /* snow-42.tiff in Resources */,
+				C3E821E01987559A00C3005A /* snow-44.tiff in Resources */,
+				C3E821CF1987559A00C3005A /* snow-27.tiff in Resources */,
+				C3E821BD1987559A00C3005A /* snow-9.tiff in Resources */,
+				C3E821CE1987559A00C3005A /* snow-26.tiff in Resources */,
+				C3E821BF1987559A00C3005A /* snow-11.tiff in Resources */,
+				C3E821C31987559A00C3005A /* snow-15.tiff in Resources */,
+				C3E821BA1987559A00C3005A /* snow-6.tiff in Resources */,
+				C3E821CB1987559A00C3005A /* snow-23.tiff in Resources */,
+				C3E821DA1987559A00C3005A /* snow-38.tiff in Resources */,
+				C3E821D01987559A00C3005A /* snow-28.tiff in Resources */,
+				C3E821E21987559A00C3005A /* snow-46.tiff in Resources */,
+				C3E821C91987559A00C3005A /* snow-21.tiff in Resources */,
+				C3E821B51987559A00C3005A /* snow-1.tiff in Resources */,
+				C3E821C21987559A00C3005A /* snow-14.tiff in Resources */,
+				C3E821D11987559A00C3005A /* snow-29.tiff in Resources */,
+				C3E821DC1987559A00C3005A /* snow-40.tiff in Resources */,
+				C3E821D21987559A00C3005A /* snow-30.tiff in Resources */,
+				C3E821E11987559A00C3005A /* snow-45.tiff in Resources */,
+				C3E821B81987559A00C3005A /* snow-4.tiff in Resources */,
+				C3E821D91987559A00C3005A /* snow-37.tiff in Resources */,
+				C3E821C61987559A00C3005A /* snow-18.tiff in Resources */,
+				C3E821D51987559A00C3005A /* snow-33.tiff in Resources */,
+				C3E821BB1987559A00C3005A /* snow-7.tiff in Resources */,
+				C3E821701987536500C3005A /* Images.xcassets in Resources */,
+				C3E821C51987559A00C3005A /* snow-17.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E821731987536500C3005A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E8215B1987536500C3005A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E821E61987571700C3005A /* SnowAniViewController.m in Sources */,
+				C3E8216B1987536500C3005A /* ViewController.m in Sources */,
+				C3E821681987536500C3005A /* AppDelegate.m in Sources */,
+				C3E821651987536500C3005A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E821711987536500C3005A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E8217C1987536500C3005A /* SnowAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3E821771987536500C3005A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E8215E1987536500C3005A /* SnowAnimation */;
+			targetProxy = C3E821761987536500C3005A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3E8216C1987536500C3005A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E8216D1987536500C3005A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E8217D1987536500C3005A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E8217E1987536500C3005A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E821801987536500C3005A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SnowAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3E821811987536500C3005A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SnowAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3E821831987536500C3005A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowAnimation.app/SnowAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C3E821841987536500C3005A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowAnimation.app/SnowAnimation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnowAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E8215A1987536500C3005A /* Build configuration list for PBXProject "SnowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E8217D1987536500C3005A /* Debug */,
+				C3E8217E1987536500C3005A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E8217F1987536500C3005A /* Build configuration list for PBXNativeTarget "SnowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E821801987536500C3005A /* Debug */,
+				C3E821811987536500C3005A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E821821987536500C3005A /* Build configuration list for PBXNativeTarget "SnowAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E821831987536500C3005A /* Debug */,
+				C3E821841987536500C3005A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E821571987536500C3005A /* Project object */;
+}

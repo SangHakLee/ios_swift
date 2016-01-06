@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C37545F019A47B260051E0D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37545EF19A47B260051E0D9 /* main.m */; };
+		C37545F319A47B260051E0D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37545F219A47B260051E0D9 /* AppDelegate.m */; };
+		C37545F619A47B260051E0D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37545F519A47B260051E0D9 /* ViewController.m */; };
+		C37545F919A47B260051E0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37545F719A47B260051E0D9 /* Main.storyboard */; };
+		C37545FB19A47B260051E0D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37545FA19A47B260051E0D9 /* Images.xcassets */; };
+		C375460719A47B260051E0D9 /* AlarmAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C375460619A47B260051E0D9 /* AlarmAppTests.m */; };
+		C375461219A47D1F0051E0D9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C375461119A47D1F0051E0D9 /* MainViewController.m */; };
+		C375461519A47D350051E0D9 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C375461419A47D350051E0D9 /* SetupViewController.m */; };
+		C375461819A47EA50051E0D9 /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = C375461719A47EA50051E0D9 /* MainClockView.m */; };
+		C375461A19A480040051E0D9 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = C375461919A480040051E0D9 /* clock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C375460119A47B260051E0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37545E219A47B260051E0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37545E919A47B260051E0D9;
+			remoteInfo = AlarmApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C37545EA19A47B260051E0D9 /* AlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37545EE19A47B260051E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37545EF19A47B260051E0D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C37545F119A47B260051E0D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C37545F219A47B260051E0D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C37545F419A47B260051E0D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C37545F519A47B260051E0D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C37545F819A47B260051E0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37545FA19A47B260051E0D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C375460019A47B260051E0D9 /* AlarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C375460519A47B260051E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C375460619A47B260051E0D9 /* AlarmAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmAppTests.m; sourceTree = "<group>"; };
+		C375461019A47D1F0051E0D9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C375461119A47D1F0051E0D9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C375461319A47D350051E0D9 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		C375461419A47D350051E0D9 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		C375461619A47EA50051E0D9 /* MainClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		C375461719A47EA50051E0D9 /* MainClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		C375461919A480040051E0D9 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37545E719A47B260051E0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37545FD19A47B260051E0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37545E119A47B260051E0D9 = {
+			isa = PBXGroup;
+			children = (
+				C37545EC19A47B260051E0D9 /* AlarmApp */,
+				C37545EB19A47B260051E0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C37545EB19A47B260051E0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37545EA19A47B260051E0D9 /* AlarmApp.app */,
+				C375460019A47B260051E0D9 /* AlarmAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37545EC19A47B260051E0D9 /* AlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				C375461619A47EA50051E0D9 /* MainClockView.h */,
+				C375461719A47EA50051E0D9 /* MainClockView.m */,
+				C37545F119A47B260051E0D9 /* AppDelegate.h */,
+				C37545F219A47B260051E0D9 /* AppDelegate.m */,
+				C37545F419A47B260051E0D9 /* ViewController.h */,
+				C37545F519A47B260051E0D9 /* ViewController.m */,
+				C375461019A47D1F0051E0D9 /* MainViewController.h */,
+				C375461119A47D1F0051E0D9 /* MainViewController.m */,
+				C375461319A47D350051E0D9 /* SetupViewController.h */,
+				C375461419A47D350051E0D9 /* SetupViewController.m */,
+				C375460319A47B260051E0D9 /* AlarmAppTests */,
+				C37545F719A47B260051E0D9 /* Main.storyboard */,
+				C37545FA19A47B260051E0D9 /* Images.xcassets */,
+				C375461B19A480150051E0D9 /* Resource */,
+				C37545ED19A47B260051E0D9 /* Supporting Files */,
+			);
+			path = AlarmApp;
+			sourceTree = "<group>";
+		};
+		C37545ED19A47B260051E0D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37545EE19A47B260051E0D9 /* Info.plist */,
+				C37545EF19A47B260051E0D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C375460319A47B260051E0D9 /* AlarmAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C375460619A47B260051E0D9 /* AlarmAppTests.m */,
+				C375460419A47B260051E0D9 /* Supporting Files */,
+			);
+			path = AlarmAppTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		C375460419A47B260051E0D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C375460519A47B260051E0D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C375461B19A480150051E0D9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C375461919A480040051E0D9 /* clock.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37545E919A47B260051E0D9 /* AlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C375460A19A47B260051E0D9 /* Build configuration list for PBXNativeTarget "AlarmApp" */;
+			buildPhases = (
+				C37545E619A47B260051E0D9 /* Sources */,
+				C37545E719A47B260051E0D9 /* Frameworks */,
+				C37545E819A47B260051E0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmApp;
+			productName = AlarmApp;
+			productReference = C37545EA19A47B260051E0D9 /* AlarmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C37545FF19A47B260051E0D9 /* AlarmAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C375460D19A47B260051E0D9 /* Build configuration list for PBXNativeTarget "AlarmAppTests" */;
+			buildPhases = (
+				C37545FC19A47B260051E0D9 /* Sources */,
+				C37545FD19A47B260051E0D9 /* Frameworks */,
+				C37545FE19A47B260051E0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C375460219A47B260051E0D9 /* PBXTargetDependency */,
+			);
+			name = AlarmAppTests;
+			productName = AlarmAppTests;
+			productReference = C375460019A47B260051E0D9 /* AlarmAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37545E219A47B260051E0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "소영섭";
+				TargetAttributes = {
+					C37545E919A47B260051E0D9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C37545FF19A47B260051E0D9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C37545E919A47B260051E0D9;
+					};
+				};
+			};
+			buildConfigurationList = C37545E519A47B260051E0D9 /* Build configuration list for PBXProject "AlarmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37545E119A47B260051E0D9;
+			productRefGroup = C37545EB19A47B260051E0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37545E919A47B260051E0D9 /* AlarmApp */,
+				C37545FF19A47B260051E0D9 /* AlarmAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37545E819A47B260051E0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C375461A19A480040051E0D9 /* clock.png in Resources */,
+				C37545F919A47B260051E0D9 /* Main.storyboard in Resources */,
+				C37545FB19A47B260051E0D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37545FE19A47B260051E0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37545E619A47B260051E0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C375461819A47EA50051E0D9 /* MainClockView.m in Sources */,
+				C37545F619A47B260051E0D9 /* ViewController.m in Sources */,
+				C37545F319A47B260051E0D9 /* AppDelegate.m in Sources */,
+				C37545F019A47B260051E0D9 /* main.m in Sources */,
+				C375461519A47D350051E0D9 /* SetupViewController.m in Sources */,
+				C375461219A47D1F0051E0D9 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37545FC19A47B260051E0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C375460719A47B260051E0D9 /* AlarmAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C375460219A47B260051E0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37545E919A47B260051E0D9 /* AlarmApp */;
+			targetProxy = C375460119A47B260051E0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C37545F719A47B260051E0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37545F819A47B260051E0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C375460819A47B260051E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C375460919A47B260051E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C375460B19A47B260051E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C375460C19A47B260051E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AlarmApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C375460E19A47B260051E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmApp.app/AlarmApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlarmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C375460F19A47B260051E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlarmApp.app/AlarmApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlarmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37545E519A47B260051E0D9 /* Build configuration list for PBXProject "AlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C375460819A47B260051E0D9 /* Debug */,
+				C375460919A47B260051E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C375460A19A47B260051E0D9 /* Build configuration list for PBXNativeTarget "AlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C375460B19A47B260051E0D9 /* Debug */,
+				C375460C19A47B260051E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C375460D19A47B260051E0D9 /* Build configuration list for PBXNativeTarget "AlarmAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C375460E19A47B260051E0D9 /* Debug */,
+				C375460F19A47B260051E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37545E219A47B260051E0D9 /* Project object */;
+}
